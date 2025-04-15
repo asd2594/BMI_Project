@@ -38,7 +38,7 @@ emg_val_placeholder = st.empty()
 temp_placeholder = st.empty()
 status_placeholder = st.empty()
 
-ser = serial.Serial("COM3", 115200)  # Update COM port as needed
+ser = serial.Serial("COM5", 115200)  # Update COM port as needed
 
 while True:
     line = ser.readline().decode().strip()
