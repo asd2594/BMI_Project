@@ -1,4 +1,4 @@
-pip install pyserial
+pip3 install pyserial
 
 import streamlit as st
 import serial
