@@ -1,5 +1,3 @@
-pip3 install pyserial
-
 import streamlit as st
 import serial
 import time
